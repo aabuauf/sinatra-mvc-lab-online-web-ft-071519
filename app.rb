@@ -23,8 +23,7 @@ class App < Sinatra::Base
      @piglatinier_text.text = text
       binding.pry
      
-     
-   binding.pry
+
    
     
   # @newText = @piglatinier_text.piglatinizeText
