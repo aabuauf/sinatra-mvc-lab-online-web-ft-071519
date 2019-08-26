@@ -8,8 +8,9 @@ class PigLatinizer
     
     newArray = []
     text.split(" ").each do|word|
+    binding.pry
       newArray << word.piglatinize
-      binding.pry
+      
     end
     newArray.join(" ")
   end
