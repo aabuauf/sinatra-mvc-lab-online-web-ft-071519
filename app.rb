@@ -19,8 +19,8 @@ class App < Sinatra::Base
     @text = params["user_phrase"]
     
     @piglatinier_text = PigLatinizer.new()
-    @piglatinier_text = params["user_phrase"]
-     @piglatinier_text.text = text
+    
+     
       binding.pry
      
 
