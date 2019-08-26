@@ -20,11 +20,6 @@ class App < Sinatra::Base
     
     @piglatinier_text = PigLatinizer.new()
     
-     
-      binding.pry
-     
-
-   
     
   # @newText = @piglatinier_text.piglatinizeText
     erb :piglatinize
